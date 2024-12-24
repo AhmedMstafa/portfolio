@@ -101,3 +101,22 @@ body {
   /* Only works if there is nothing absolutely positioned in to body */
   overflow-x: hidden;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
