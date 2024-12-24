@@ -1,0 +1,103 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Large: 1.8
+Parapgraph default: 1.6
+
+- Letter spacing
+- 0.5px
+- 0.75px
+
+-- 02 Colors
+
+- Primary: 
+#ffffff
+#000000
+- Tints: 
+#0bda07
+#0bda0780
+#e53838
+#0000ee
+#551a8b
+#1da1f2
+
+- Shades: 
+#1a1a1a
+#020202e6
+
+- Accents: 
+- Greys: 
+#6f6f6f  ( lightest grey allowed on #fdf2e9 )
+#a5a8ac
+#545454
+#333333
+#3d3d3d
+#666666
+#b3b3b3
+#ebebeb
+
+#767676 ( lightest grey allowed on #fff )
+
+
+--- 05 Shadows
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+
+--- 06 Border-Radius
+Default: 9px
+Medium: 12px
+
+--- 07 Witespace
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Precentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Dose Not work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: 'Inter', serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in to body */
+  overflow-x: hidden;
+}
