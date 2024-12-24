@@ -9,12 +9,9 @@
   , I'm eager to explore innovative approaches and growmy skills. Feel free to reachout—I'mopenfornew , exciting opportunities!">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/all.min.css">
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +21,10 @@
   <!-- CSS  -->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/queries.css">
   <!-- JavaScript -->
+  <script src="js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/all.min.js" defer></script>
   <script src="js/script.js" defer></script>
   <script>
     console.log(
@@ -38,8 +38,8 @@
 </head>
 
 <body>
-  <header id="header" class="header d-flex align-items-cneter ">
-    <div class="container d-flex align-items-center">
+  <header id="header" class="header d-flex align-items-cneter">
+    <div class="container d-flex align-items-center pe-5 ps-5 p-sm-0 position-relative">
       <div class="logo-image mt-2">
         <img src="img/logo.jpg" alt="logo" class="img-fluid rounded-circle">
       </div>
@@ -47,21 +47,24 @@
         <div class="name fw-bold mb-2 fs-3">Ahmed Mostafa</div>
         <div class="status avilable fs-6 p-l-20 ms-2 position-relative">avilable</div>
       </div>
-      <div class="nav navbar flex-grow-1">
-        <div class="nav-btn active">
-          <span></span>
-          <span></span>
-          <span></span>
+      <nav class="navbar navbar-expand-lg bg-transparent ms-auto position-static">
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="nav-items collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-items navbar-nav fs-3 gap-3">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link d-flex align-items-center " href="#">Work with me <span
+                class="position-relative d-inline-flex align-items-center justify-content-center"> </span></a>
+          </div>
         </div>
-        <ul class="d-flex ms-auto fs-3 gap-5">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="projcets">Projects</a></li>
-          <li><a href="#contact" class="d-flex align-items-center ">Work with me
-              <span class="position-relative d-inline-flex align-items-center justify-content-center"></span> </a>
-          </li>
-        </ul>
-      </div>
+      </nav>
     </div>
   </header>
 </body>
