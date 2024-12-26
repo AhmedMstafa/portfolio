@@ -117,6 +117,7 @@ a:visited {
   color: #fff;
 }
 
-a:hover {
+a:hover,
+a:active {
   color: #fff;
 }
