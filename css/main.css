@@ -22,6 +22,10 @@ body::before {
 
 /* Start Nav */
 
+.nav {
+  z-index: 1;
+}
+
 .logo-image {
   width: 50px;
   height: 50px;
@@ -306,3 +310,93 @@ body::before {
 }
 
 /* End Loading */
+
+/* Start Hearo */
+.hero {
+  color: #fdf2e9;
+}
+
+.hero .content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.hero .greet {
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+}
+
+.hero .greet > span {
+  position: absolute;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: greeting-down 1.5s 3s ease-in-out forwards;
+  -webkit-animation: greeting-down 1.5s 3s ease-in-out forwards;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+
+.hero .title {
+  position: relative;
+  height: 150px;
+}
+
+.hero .title span {
+  position: absolute;
+  font-size: 3.2rem;
+  font-weight: bold;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  opacity: 0;
+  animation: title-up 2s 4s ease-in-out forwards;
+  -webkit-animation: title-up 2s 4s ease-in-out forwards;
+}
+
+@keyframes greeting-down {
+  from {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    opacity: 1;
+  }
+}
+
+@keyframes title-up {
+  from {
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
+/* End Hearo */
