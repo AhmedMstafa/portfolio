@@ -260,3 +260,49 @@ body::before {
 }
 
 /* End Nav */
+
+/* Start Loading */
+
+.loading {
+  animation: disapero 3s linear forwards;
+  -webkit-animation: disapero 3s linear forwards;
+}
+.loading-title {
+  color: #6f6f6f;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+
+.loading-progress {
+  background-color: #3d3d3d;
+  width: 100px;
+  height: 1px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-progress span {
+  height: 1px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+
+@keyframes disapero {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* End Loading */
