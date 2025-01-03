@@ -68,6 +68,7 @@ revealSpans();
 /* Add Calss move To  Section header */
 
 const sectionHeaders = document.querySelectorAll('.section-header');
+
 function addClassShow() {
   sectionHeaders.forEach((section) => {
     const rect = section.getBoundingClientRect();
