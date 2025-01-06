@@ -70,15 +70,27 @@ revealSpans();
 const sectionHeaders = document.querySelectorAll('.section-header');
 
 function addClassShow() {
-  sectionHeaders.forEach((section) => {
-    const rect = section.getBoundingClientRect();
-
-    if (rect.top > 100 && rect.bottom > 0) {
-      section.classList.add('move');
+  for (let i = 0; i < sectionHeaders.length; i++) {
+    const rect = sectionHeaders[i].getBoundingClientRect();
+    if (0 <= rect.top || 0 === rect.bottom) {
       console.log(rect.top);
-      return;
+      sectionHeaders[i].classList.add('move');
+      break;
     }
-  });
+  }
 }
 
 window.addEventListener('scroll', addClassShow);
+
+// mange works section
+
+const worksBtns = document.querySelectorAll('.works .nav-btn');
+const indicator = document.querySelector('.nav-indicator-glow');
+
+worksBtns.forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    worksBtns.forEach((btn) => btn.classList.remove('active'));
+
+    e.target.classList.add('active');
+  });
+});

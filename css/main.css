@@ -555,3 +555,71 @@ body::before {
 }
 
 /* End About */
+
+/* Start Works */
+
+.works .text {
+  font-size: 1.6rem;
+}
+
+.works .nav-pill {
+  margin-inline: auto;
+  backdrop-filter: blur(15px);
+  background-color: #f2f2f20d;
+  border: 1px solid #f2f2f21a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 210px;
+  height: 48px;
+  padding-left: 6px;
+  padding-right: 6px;
+  box-shadow: 0 10px 25px #00000026;
+}
+
+.works .nav-pill .nav-btn.active::before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 24px;
+  height: 4px;
+  top: -18px;
+  left: 50%;
+  opacity: 1;
+  z-index: 1;
+  box-shadow: 0 2px 25px 2px #fff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  animation: flash 10s linear infinite;
+  -webkit-animation: flash 10s linear infinite;
+}
+
+@keyframes flash {
+  98% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+  }
+  99.5% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Works */
