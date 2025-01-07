@@ -21,6 +21,13 @@ body::before {
   z-index: -1;
 }
 
+.noscript-content {
+  color: #fff;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 5px 10px;
+}
+
 /* Start Section Header */
 
 .section-header .text {
