@@ -4,7 +4,6 @@
 
 body {
   background-color: var(--balck-color, #111);
-  height: 10000vh;
 }
 
 body::before {
@@ -705,3 +704,36 @@ body::before {
 }
 
 /* End Works */
+
+/* Start Footer*/
+
+.work-with-me .nav-wrapper .footer-link a {
+  color: #a5a6f6;
+}
+.work-with-me .nav-wrapper .footer-link:nth-of-type(1)::before,
+.work-with-me .nav-wrapper .footer-link:nth-of-type(2)::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.work-with-me .nav-wrapper .footer-link:nth-of-type(1)::before {
+  background-color: #0a66c2;
+}
+.work-with-me .nav-wrapper .footer-link:nth-of-type(2)::before {
+  background-color: #14171a;
+}
+
+/* End Footer*/
