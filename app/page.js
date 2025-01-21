@@ -1,5 +1,6 @@
 import styles from './page.module.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 export default function Home() {
-  return <p className="text-danger">Hellow Bootstrap</p>;
+  return <FontAwesomeIcon icon={faHouse} />;
 }
