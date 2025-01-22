@@ -7,13 +7,13 @@ export default function Loading() {
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
-    if (counter >= 100) {
+    if (counter > 100) {
       return redirect('/home');
     }
 
     const interval = setInterval(() => {
       setCounter((pre) => pre + 1);
-    }, 60);
+    }, 50);
 
     return () => {
       clearInterval(interval);

@@ -298,7 +298,7 @@ body::before {
   -o-transition: 0.3s linear;
 }
 
-@keyframes disapero {
+/* @keyframes disapero {
   from {
     opacity: 1;
   }
@@ -306,7 +306,7 @@ body::before {
   to {
     opacity: 0;
   }
-}
+} */
 
 /* End Loading */
 
@@ -421,3 +421,7 @@ body::before {
 }
 
 /* End Hearo */
+
+/* Start About */
+
+/* End About */
