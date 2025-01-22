@@ -1,16 +1,32 @@
+'use client';
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { split } from '@/util/split';
+import MainHeader from './main-header';
+gsap.registerPlugin(ScrollTrigger);
+
 export default function About() {
+  useEffect(() => {
+    split('.about p');
+
+    gsap.from('.c', {
+      opacity: 0,
+      duration: 1,
+      stagger: 0.05,
+      scrollTrigger: {
+        trigger: '.c',
+        scrub: true,
+        start: 'top 80%',
+      },
+    });
+  }, []);
+
   return (
     <section id="about" className="about pt-5 pb-5">
       <div className="container ps-4 pe-4 text-light">
-        <div className="section-header p-0">
-          <div className="text fs-3 fw-semibold d-block mb-4 p-0">
-            <span>About</span>
-          </div>
-          <div className="line p-0">
-            <span></span>
-          </div>
-        </div>
-        <p className="title w-100 mb-5 mt-5">
+        <MainHeader title="About" />
+        <p className="title w-100 mb-3 mt-3 lh-sm">
           I build and design custom websites that are both playful and efficient
           *◞
         </p>
