@@ -1,5 +1,5 @@
 :root {
-  --black-color: #111;
+  --black-color: #000000;
   --white-color: #fdf2e9;
   --dark-gray-color: #6f6f6f;
   --light-gray-color: #fdf2e9;
@@ -10,7 +10,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: var(--black-color, #111);
+  background-color: var(--black-color, #000000);
 }
 
 body {
@@ -31,7 +31,6 @@ body::before {
   width: 100%;
   background-size: cover;
   opacity: 0.05;
-  z-index: -999;
 }
 
 /* Start Nav */
@@ -329,6 +328,7 @@ body::before {
 }
 
 .hero .greet > span {
+  font-size: 12px;
   position: absolute;
   transform: translateY(-20px);
   opacity: 0;
@@ -342,12 +342,12 @@ body::before {
 
 .hero .title {
   position: relative;
-  height: 150px;
+  height: 180px;
 }
 
 .hero .title span {
   position: absolute;
-  font-size: 1.999rem;
+  font-size: 1.618rem;
   font-weight: bold;
   transform: translateY(100px);
   -webkit-transform: translateY(100px);
@@ -407,16 +407,16 @@ body::before {
   }
 
   .hero .title {
-    height: 200px;
+    height: 230px;
   }
 }
 
 @media (min-width: 992px) {
   .hero .title span {
-    font-size: 3.998rem;
+    font-size: 4.236rem;
   }
   .hero .title {
-    height: 250px;
+    height: 300px;
   }
 }
 
