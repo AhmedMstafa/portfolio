@@ -2,9 +2,9 @@ import { Inter } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.css';
 import './globals.css';
 import BootstrapClient from '@/lib/bootstrap-client';
-
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { Suspense } from 'react';
 config.autoAddCss = false;
 
 const inter = Inter({
@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable}`}>
-        {children}
         <BootstrapClient />
+        {children}
       </body>
     </html>
   );
