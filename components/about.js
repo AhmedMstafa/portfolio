@@ -4,6 +4,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { split } from '@/util/split';
 import MainHeader from './main-header';
+import Techonligies from './techonligies';
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
@@ -52,6 +54,7 @@ export default function About() {
         <p className="content w-lg-75 mt-4">
           Technologies I&apos;m familiar with:
         </p>
+        <Techonligies />
       </div>
     </section>
   );
