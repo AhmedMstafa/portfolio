@@ -25,7 +25,7 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="about pt-5 pb-5">
+    <section id="about" className="about pt-5 ">
       <div className="container ps-4 pe-4 text-light">
         <MainHeader title="About" />
         <p className="title w-100 mb-3 mt-3 lh-sm">
