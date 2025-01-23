@@ -1,0 +1,191 @@
+[
+  {
+    "title": "omnifood",
+    "img": "/images/works/omnifood.jpg",
+    "github": "https://github.com/AhmedMstafa/Omnifood",
+    "link": "https://omnifood-ahmed-m.netlify.app/",
+    "place": "html&css"
+  },
+  {
+    "title": "dashboard",
+    "img": "/images/works/dashboard.jpg",
+    "github": "https://github.com/AhmedMstafa/Dashboard",
+    "link": "https://dashboard-psi-azure.vercel.app/",
+    "place": "html&css"
+  },
+  {
+    "title": "appie",
+    "img": "/images/works/appie.jpg",
+    "github": "https://github.com/AhmedMstafa/appie",
+    "link": "https://appie-ahmed.netlify.app/",
+    "place": "html&css"
+  },
+  {
+    "title": "bondi",
+    "img": "/images/works/bondi.jpg",
+    "github": "https://github.com/AhmedMstafa/Bondi",
+    "link": "https://bondi-phi.vercel.app/",
+    "place": "html&css"
+  },
+  {
+    "title": "elzero",
+    "img": "/images/works/elzero.jpg",
+    "github": "https://github.com/AhmedMstafa/elzero",
+    "link": "https://elzero-three.vercel.app/",
+    "place": "html&css"
+  },
+  {
+    "title": "kasper",
+    "img": "/images/works/kasper.jpg",
+    "github": "https://github.com/AhmedMstafa/kasper",
+    "link": "https://kasper-black.vercel.app/",
+    "place": "html&css"
+  },
+  {
+    "title": "leon",
+    "img": "/images/works/leon.jpg",
+    "github": "https://github.com/AhmedMstafa/leon",
+    "link": "https://ahmedmstafa.github.io/Leon/",
+    "place": "html&css"
+  },
+  {
+    "title": "breakout game",
+    "img": "/images/works/breakout-game.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/breakout-game",
+    "link": "https://breakout-game-a.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "custom video player",
+    "img": "/images/works/custom-video-player.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/custom-video-player",
+    "link": "https://custom-video-player-ahmed.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "music player",
+    "img": "/images/works/music-player.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/music-player",
+    "link": "https://a-h-music-player.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "new year countdown",
+    "img": "/images/works/new-year-countdown.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/new-year-countdown",
+    "link": "https://a-new-year-countdown.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "product filtering ui",
+    "img": "/images/works/product-filtering-ui.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/product-filtering-ui",
+    "link": "https://a-product-filtering-ui.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "relaxer app",
+    "img": "/images/works/relaxer-app.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/relaxer-app",
+    "link": "https://a-relaxer-app.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "speak number guess",
+    "img": "/images/works/speak-number-guess.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/speak-number-guess",
+    "link": "https://a-speak-number-guess.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "speech text reader",
+    "img": "/images/works/speech-text-reader.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/speech-text-reader",
+    "link": "https://a-speech-text-reader.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "typing game",
+    "img": "/images/works/typing-game.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/typing-game",
+    "link": "https://a-speech-text-reader.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "dom array methods",
+    "img": "/images/works/dom-array-methods.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/dom-array-methods",
+    "link": "https://dom-array-methods-ahmed.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "exchange rate",
+    "img": "/images/works/exchange-rate.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/exchange-rate",
+    "link": "https://exchange-rate-ahmed.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "expense tracker",
+    "img": "/images/works/expense-tracker.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/expense-tracker",
+    "link": "https://a-n-expense-tracker.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "form validator",
+    "img": "/images/works/form-validator.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/form-validator",
+    "link": "https://form-validator-ahmed.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "hangman",
+    "img": "/images/works/hangman.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/hangman",
+    "link": "https://hangman-game-11.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "infinite scroll blog",
+    "img": "/images/works/infinite-scroll-blog.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/infinite-scroll-blog",
+    "link": "https://a-infinite-scroll-blog.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "meal finder",
+    "img": "/images/works/meal-finder.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/meal-finder",
+    "link": "https://a-meal-finder.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "memory cards",
+    "img": "/images/works/memory-cards.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/memory-cards",
+    "link": "https://a-meal-finder.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "modal menu slider",
+    "img": "/images/works/modal-menu-slider.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/modal-menu-slider",
+    "link": "https://a-modal-menu-slider.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "movie seat booking",
+    "img": "/images/works/movie-seat-booking.jpg",
+    "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/movie-seat-booking",
+    "link": "https://a-modal-menu-slider.netlify.app/",
+    "place": "javascript"
+  },
+  {
+    "title": "yourCar",
+    "img": "/images/works/your-car.jpg",
+    "github": "https://github.com/AhmedMstafa/your-car",
+    "link": "https://your-car-seven.vercel.app/",
+    "place": "react"
+  }
+]
