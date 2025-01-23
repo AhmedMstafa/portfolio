@@ -44,7 +44,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="footer-link fs-5 fw-bold position-relative ps-4 pe-4 x">
-                <a href="#" target="_blank">
+                <a href="https://x.com/AhmedMosta4086" target="_blank">
                   x
                 </a>
               </li>

@@ -1,5 +1,4 @@
-import Loading from './loading/page';
-
+import HomePage from './home/page';
 export default function Home() {
-  return <Loading />;
+  return <HomePage />;
 }
