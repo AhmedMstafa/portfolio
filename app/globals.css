@@ -17,7 +17,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 1000vh;
   position: relative;
   z-index: -2;
 }
@@ -44,6 +43,15 @@ a:visited {
 a:hover,
 a:active {
   color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 /* Start Section Header */
@@ -315,6 +323,8 @@ a:active {
   animation: disapero 3s linear forwards;
   -webkit-animation: disapero 3s linear forwards;
   z-index: 2;
+  background-color: #fff;
+  background-color: inherit;
 }
 .loading-title {
   color: #6f6f6f;
@@ -326,7 +336,7 @@ a:active {
 }
 
 .loading-progress {
-  background-color: #6f6f6f;
+  background-color: #3d3d3d;
   width: 100px;
   height: 1px;
   padding: 0;
@@ -337,11 +347,11 @@ a:active {
 
 .loading-progress span {
   height: 1px;
-  transition: 0.3s linear;
-  -webkit-transition: 0.3s linear;
-  -moz-transition: 0.3s linear;
-  -ms-transition: 0.3s linear;
-  -o-transition: 0.3s linear;
+  transition: 0.6s linear;
+  -webkit-transition: 0.6s linear;
+  -moz-transition: 0.6s linear;
+  -ms-transition: 0.6s linear;
+  -o-transition: 0.6s linear;
 }
 
 /* @keyframes disapero {
@@ -731,3 +741,36 @@ a:active {
 }
 
 /* End Works */
+
+/* Start Footer*/
+
+.work-with-me .nav-wrapper .footer-link a {
+  color: #a5a6f6;
+}
+.work-with-me .nav-wrapper .linked-in::before,
+.work-with-me .nav-wrapper .x::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.work-with-me .nav-wrapper .footer-link:nth-of-type(1)::before {
+  background-color: #0a66c2;
+}
+.work-with-me .nav-wrapper .footer-link:nth-of-type(2)::before {
+  background-color: #14171a;
+}
+
+/* End Footer*/
