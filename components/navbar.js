@@ -9,8 +9,8 @@ export default function Navbar() {
         <div className="navbar-brand logo-image ms-2 mb-1">
           <Image
             src="/images/logo.jpg"
-            width="50"
-            height="50"
+            width={50}
+            height={50}
             alt="logo"
             className="rounded-circle "
           />
