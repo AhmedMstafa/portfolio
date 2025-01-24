@@ -331,7 +331,7 @@ li {
 .hero .greet {
   overflow: hidden;
   position: relative;
-  height: 50px;
+  height: 40px;
 }
 
 .hero .greet > span {
