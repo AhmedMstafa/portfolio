@@ -2,7 +2,7 @@
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { split } from '@/util/split';
+import { split } from '@/utils/split';
 import MainHeader from '../main-header';
 import Techonligies from './techonligies';
 

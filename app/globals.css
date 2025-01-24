@@ -317,55 +317,6 @@ li {
   }
 }
 
-/* Start Loading */
-
-.loading {
-  animation: disapero 3s linear forwards;
-  -webkit-animation: disapero 3s linear forwards;
-  z-index: 2;
-  background-color: #fff;
-  background-color: inherit;
-}
-.loading-title {
-  color: #6f6f6f;
-  transition: 0.3s linear;
-  -webkit-transition: 0.3s linear;
-  -moz-transition: 0.3s linear;
-  -ms-transition: 0.3s linear;
-  -o-transition: 0.3s linear;
-}
-
-.loading-progress {
-  background-color: #3d3d3d;
-  width: 100px;
-  height: 1px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.loading-progress span {
-  height: 1px;
-  transition: 0.6s linear;
-  -webkit-transition: 0.6s linear;
-  -moz-transition: 0.6s linear;
-  -ms-transition: 0.6s linear;
-  -o-transition: 0.6s linear;
-}
-
-/* @keyframes disapero {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-} */
-
-/* End Loading */
-
 /* Start Hearo */
 .hero {
   color: var(--white-color);
