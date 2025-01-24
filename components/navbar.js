@@ -8,11 +8,11 @@ export default function Navbar() {
       <div className="container  pt-2 ps-4 pe-4">
         <div className="navbar-brand logo-image ms-2 mb-1">
           <Image
-            src="/Images/logo.jpg"
+            src="/images/logo.jpg"
             width="50"
             height="50"
             alt="logo"
-            className="img-fluid rounded-circle "
+            className="rounded-circle "
           />
         </div>
         <div className="navbar-brand title me-auto">
