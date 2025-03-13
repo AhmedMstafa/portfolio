@@ -187,5 +187,26 @@
     "github": "https://github.com/AhmedMstafa/your-car",
     "link": "https://your-car-seven.vercel.app/",
     "place": "react"
+  },
+  {
+    "title": "yourNotes",
+    "img": "/images/works/your-notes.png",
+    "github": "https://github.com/AhmedMstafa/your-notes",
+    "link": "https://your-notes-ui.vercel.app",
+    "place": "react"
+  },
+  {
+    "title": "coursesPlayer",
+    "img": "/images/works/courses-player.png",
+    "github": "https://github.com/AhmedMstafa/course-player",
+    "link": "https://course-player-wine.vercel.app/",
+    "place": "react"
+  },
+  {
+    "title": "factoryDashboard",
+    "img": "/images/works/factory-dashboard.png",
+    "github": "https://github.com/AhmedMstafa/factory-mes-dashboard",
+    "link": "https://factory-mes-dashboard.vercel.app",
+    "place": "react"
   }
 ]
