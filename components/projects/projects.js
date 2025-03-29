@@ -34,7 +34,7 @@ export default function Projects() {
   });
 
   useEffect(() => {
-    dispatch({ type: actions.HTMLANDCSS });
+    dispatch({ type: actions.REACT });
   }, []);
 
   function showProjectsBy(category) {
@@ -46,20 +46,21 @@ export default function Projects() {
   const classbtnActive = classbtn + ' active';
 
   return (
-    <section id="works" className="works pt-5">
+    <section id="works" className="works pt-5 min-vh-100">
       <div className="container text-light">
         <MainHeader title="works" />
         <div className="nav-pill mt-5 mb-5 d-flex ">
           <button
-            id="html-btn"
+            id="react-btn"
             type="button"
             className={`${
-              state.activeBtn === actions.HTMLANDCSS ? classbtnActive : classbtn
+              state.activeBtn === actions.REACT ? classbtnActive : classbtn
             }`}
-            onClick={() => showProjectsBy(actions.HTMLANDCSS)}
+            onClick={() => showProjectsBy(actions.REACT)}
           >
-            HTML & CSS
+            React
           </button>
+
           <button
             id="js-btn"
             type="button"
@@ -70,15 +71,16 @@ export default function Projects() {
           >
             JavaScript
           </button>
+
           <button
-            id="react-btn"
+            id="html-btn"
             type="button"
             className={`${
-              state.activeBtn === actions.REACT ? classbtnActive : classbtn
+              state.activeBtn === actions.HTMLANDCSS ? classbtnActive : classbtn
             }`}
-            onClick={() => showProjectsBy(actions.REACT)}
+            onClick={() => showProjectsBy(actions.HTMLANDCSS)}
           >
-            React
+            HTML & CSS
           </button>
         </div>
         <div className="wrapper row">
