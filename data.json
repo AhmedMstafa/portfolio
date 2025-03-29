@@ -1,54 +1,5 @@
 [
   {
-    "title": "omnifood",
-    "img": "/images/works/omnifood.jpg",
-    "github": "https://github.com/AhmedMstafa/Omnifood",
-    "link": "https://omnifood-ahmed-m.netlify.app/",
-    "place": "html&css"
-  },
-  {
-    "title": "dashboard",
-    "img": "/images/works/dashboard.jpg",
-    "github": "https://github.com/AhmedMstafa/Dashboard",
-    "link": "https://dashboard-psi-azure.vercel.app/",
-    "place": "html&css"
-  },
-  {
-    "title": "appie",
-    "img": "/images/works/appie.jpg",
-    "github": "https://github.com/AhmedMstafa/appie",
-    "link": "https://appie-ahmed.netlify.app/",
-    "place": "html&css"
-  },
-  {
-    "title": "bondi",
-    "img": "/images/works/bondi.jpg",
-    "github": "https://github.com/AhmedMstafa/Bondi",
-    "link": "https://bondi-phi.vercel.app/",
-    "place": "html&css"
-  },
-  {
-    "title": "elzero",
-    "img": "/images/works/elzero.jpg",
-    "github": "https://github.com/AhmedMstafa/elzero",
-    "link": "https://elzero-three.vercel.app/",
-    "place": "html&css"
-  },
-  {
-    "title": "kasper",
-    "img": "/images/works/kasper.jpg",
-    "github": "https://github.com/AhmedMstafa/kasper",
-    "link": "https://kasper-black.vercel.app/",
-    "place": "html&css"
-  },
-  {
-    "title": "leon",
-    "img": "/images/works/leon.jpg",
-    "github": "https://github.com/AhmedMstafa/leon",
-    "link": "https://ahmedmstafa.github.io/Leon/",
-    "place": "html&css"
-  },
-  {
     "title": "breakout game",
     "img": "/images/works/breakout-game.jpg",
     "github": "https://github.com/AhmedMstafa/Vanilla_JavaScript/tree/main/breakout-game",
@@ -182,10 +133,19 @@
     "place": "javascript"
   },
   {
+    "title": "coursesPlayer",
+    "img": "/images/works/courses-player.png",
+    "github": "https://github.com/AhmedMstafa/course-player",
+    "link": "https://course-player-wine.vercel.app/",
+    "design": "https://www.figma.com/design/M6RfSjHqm6glEN1BQR1WFl/ITLegend-Course-Player-Page-Test?node-id=0-1&p=f&t=NuPXPvtejXiMOrrS-0",
+    "place": "react"
+  },
+  {
     "title": "yourCar",
     "img": "/images/works/your-car.jpg",
     "github": "https://github.com/AhmedMstafa/your-car",
     "link": "https://your-car-seven.vercel.app/",
+    "design": "https://www.figma.com/design/9gUmHCgpnXHpGY77Cyij8s/React-Project?node-id=461-1794&t=tFxiDpvkkbWZRNDq-0",
     "place": "react"
   },
   {
@@ -193,13 +153,14 @@
     "img": "/images/works/your-notes.png",
     "github": "https://github.com/AhmedMstafa/your-notes",
     "link": "https://your-notes-ui.vercel.app",
+    "design": "https://www.figma.com/design/l8NmLOzli8pSwfs2HxsZ3Y/MERN-Project?node-id=17-3&p=f&t=MxcbepxC86iEzyAt-0",
     "place": "react"
   },
   {
-    "title": "coursesPlayer",
-    "img": "/images/works/courses-player.png",
-    "github": "https://github.com/AhmedMstafa/course-player",
-    "link": "https://course-player-wine.vercel.app/",
+    "title": "crud operations dashboard",
+    "img": "/images/works/crud-operations-dashboard.png",
+    "github": "hhttps://github.com/AhmedMstafa/crud-operations-dashboard",
+    "link": "https://crud-operations-dashboard.vercel.app/",
     "place": "react"
   },
   {
@@ -207,6 +168,14 @@
     "img": "/images/works/factory-dashboard.png",
     "github": "https://github.com/AhmedMstafa/factory-mes-dashboard",
     "link": "https://factory-mes-dashboard.vercel.app",
+    "design": "https://xd.adobe.com/view/21485668-f4e4-4e13-98d1-e54adc54dc14-741b/screen/40b8b54f-468f-4b82-92c2-f99f93a2cc55",
     "place": "react"
+  },
+  {
+    "title": "appie",
+    "img": "/images/works/appie.jpg",
+    "github": "https://github.com/AhmedMstafa/appie",
+    "link": "https://appie-ahmed.netlify.app/",
+    "place": "html&css"
   }
 ]
