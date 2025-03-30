@@ -133,7 +133,7 @@
     "place": "javascript"
   },
   {
-    "title": "coursesPlayer",
+    "title": "courses player",
     "img": "/images/works/courses-player.png",
     "github": "https://github.com/AhmedMstafa/course-player",
     "link": "https://course-player-wine.vercel.app/",
@@ -141,7 +141,7 @@
     "place": "react"
   },
   {
-    "title": "yourCar",
+    "title": "your car",
     "img": "/images/works/your-car.jpg",
     "github": "https://github.com/AhmedMstafa/your-car",
     "link": "https://your-car-seven.vercel.app/",
@@ -149,7 +149,7 @@
     "place": "react"
   },
   {
-    "title": "yourNotes",
+    "title": "your notes",
     "img": "/images/works/your-notes.png",
     "github": "https://github.com/AhmedMstafa/your-notes",
     "link": "https://your-notes-ui.vercel.app",
@@ -159,12 +159,12 @@
   {
     "title": "crud operations dashboard",
     "img": "/images/works/crud-operations-dashboard.png",
-    "github": "hhttps://github.com/AhmedMstafa/crud-operations-dashboard",
+    "github": "https://github.com/AhmedMstafa/crud-operations-dashboard",
     "link": "https://crud-operations-dashboard.vercel.app/",
     "place": "react"
   },
   {
-    "title": "factoryDashboard",
+    "title": "factory dashboard",
     "img": "/images/works/factory-dashboard.png",
     "github": "https://github.com/AhmedMstafa/factory-mes-dashboard",
     "link": "https://factory-mes-dashboard.vercel.app",
