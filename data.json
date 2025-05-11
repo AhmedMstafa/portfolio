@@ -177,5 +177,13 @@
     "github": "https://github.com/AhmedMstafa/appie",
     "link": "https://appie-ahmed.netlify.app/",
     "place": "html&css"
+  },
+  {
+    "title": "Station Dashboard — Desktop Experience",
+    "img": "/images/works/station-dashboard.png",
+    "github": "https://github.com/AhmedMstafa/station-dashboard",
+    "link": "https://station-dashboard-eight.vercel.app/",
+    "design": "https://xd.adobe.com/view/372228fd-9afe-4a10-b251-af977b41e290-6271/screen/319f4e6b-6d4e-4d66-9bad-86566b8df9bf/specs",
+    "place": "react"
   }
 ]
